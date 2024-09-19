@@ -1,2 +1,3 @@
 # sanmilonge.github.io
-Practice files
+Project files for resume 
+Most projects done with python 
