@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Oluwasanmi Longe | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Oluwasanmi Longe</a>
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <section id="home" class="main-section">
+        <div class="container">
+            <h1>Hello, I'm <span class="highlight"><em>Sanmi Longe</em></span></h1>
+            <p>I'm a passionate aspiring <span class="highlight">Software Developer</span> and <span class="highlight">Software Engineer</span> based in Leeds, United Kingdom.</p>
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="profile-pic">
+                    <img src="profilepicture.jpg" alt="Your Profile Picture">
+                </div>
+                <div class="about-text">
+                    <p>Hello! I am <strong>Sanmi Longe</strong>, an aspiring software and web developer with experience in building high-quality websites and applications. My main focus is on creating user-friendly, responsive, and visually appealing websites. I'm passionate about coding, and I love learning new ways and technologies to improve my skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <h3>File Parser</h3>
+                    <p>Basic file tool to perform operations such as displaying file content, replacing data, converting file to different types and so on. Only works for pdf, txt, docx and csv files.</p>
+                    <a href="https://github.com/sanmilonge/sanmilonge.github.io/blob/main/File%20Parser/Working%20parser/sanmisFileParser.py" class="btn">View Project</a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <h3>Reverse Shell</h3>
+                    <p>Allows user to remotely connect to a colleague's computer and send commands via the command prompt. The colleague must run the client file in order to establish connection.</p>
+                    <a href="" class="btn">View Project</a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <h3>Number Guessing Game</h3>
+                    <p>Guess a number between 0 and 100 and win the prize!</p>
+                    <a href="https://github.com/sanmilonge/sanmilonge.github.io/blob/main/guessingGame.py" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <h3>longesanmi700@gmail.com</h3>
+            <p>If you'd like to get in touch with me, feel free to send a message below or connect with me via email, Facebook or Whatsapp.</p>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Oluwasanmi Longe" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Oluwasanmi Longe. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=100073415635436" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
+                <a href="https://github.com/sanmilonge/sanmilonge.github.io" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+                <a href="https://wa.me/qr/3DC3WPTUQ2F4L1" target="_blank"><i class="fab fa-whatsapp"></i>Whatsapp</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
