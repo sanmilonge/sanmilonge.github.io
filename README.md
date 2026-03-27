@@ -91,7 +91,7 @@ The tool is designed to demonstrate:
 
 ```bash
 .
-├── sanmisfileparser.py   # Main program entry point
+├── sanmisFileParser.py   # Main program entry point
 ├── fp_func_file.py       # Core file handling and utilities
 ├── csv_parser.py         # CSV-specific functionality
 └── README.md             # Documentation
